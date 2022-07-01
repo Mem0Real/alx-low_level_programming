@@ -15,17 +15,25 @@ int main(void)
 {
 	int n;
 	int lastDigit;
+	char ldo[14];
+	char g[22];
+	char z[9];
+	char m[29];
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	lastDigit = n % 10;
 
+	ldo = "Last digit of";
+	g = "and is greater than 5";
+	z = "and is 0";
+	m = "and is less than 6 and not 0";
+
 	if (lastDigit > 5)
-		printf("%s %d %s %d %s\n", "Last digit of", n, "is", lastDigit, "and is greater than 5");
+		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, g);
 	else if (lastDigit == 0)
-		printf("%s %d %s %d %s\n", "Last digit of", n, "is", lastDigit, "and is 0");
+		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, z);
 	else if (lastDigit < 6)
-		printf("%s %d %s %d %s\n", "Last digit of", n, "is", lastDigit, "and is less than 6 and not 0");	
+		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, m);	
 	return (0);
 }
