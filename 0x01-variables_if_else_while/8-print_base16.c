@@ -14,7 +14,7 @@ int main(void)
 	int i;
 	int j;
 	char y[7];
-	
+
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
