@@ -7,6 +7,7 @@
 
 /**
  * main - prints random nos with their sign
+ * Return: int
  *
  * This program prints out
  * random numbers and prints
