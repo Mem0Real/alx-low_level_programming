@@ -18,10 +18,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	lastDigit = n % 10;
 
 	if (lastDigit > 5)
-		printf("%s %d %s %d %s\n", "Last digit of" n, "is", lastDigit,"and is greater than 5");
+		printf("%s %d %s %d %s\n", "Last digit of" n, "is", lastDigit, "and is greater than 5");
 	else if (lastDigit == 0)
 		printf("%s %d %s %d %s\n", "Last digit of", n, "is", lastDigit, "and is 0");
 	else if (lastDigit < 6)
