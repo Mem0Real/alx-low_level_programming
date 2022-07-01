@@ -3,6 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 
+/* betty style doc for function main goes there */
+
 /**
  * This program prints out
  * random numbers and prints
