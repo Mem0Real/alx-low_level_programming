@@ -3,8 +3,13 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-/* This program prints out random number each time it is executed along with it's description */
+/**
+ * This program prints out
+ * random numbers and prints
+ * zero, positive or negative
+ * based on the value of the number.
+ */
+
 int main(void)
 {
 	int n;
