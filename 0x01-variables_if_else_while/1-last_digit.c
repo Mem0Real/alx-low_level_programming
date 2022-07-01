@@ -20,16 +20,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	lastDigit = n % 10;
 
-	char ldo[14] = "Last digit of";
-	char g[22] = "and is greater than 5";
-	char z[9] = "and is 0";
-	char m[29] = "and is less than 6 and not 0"
-
 	if (lastDigit > 5)
-		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, g);
+		printf("%s %d %s %d %s\n", "Last digit of" n, "is", lastDigit,"and is greater than 5");
 	else if (lastDigit == 0)
-		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, z);
+		printf("%s %d %s %d %s\n", "Last digit of", n, "is", lastDigit, "and is 0");
 	else if (lastDigit < 6)
-		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, m);	
+		printf("%s %d %s %d %s\n", "Last digit of", n, "is", lastDigit, "and is less than 6 and not 0");	
 	return (0);
 }
