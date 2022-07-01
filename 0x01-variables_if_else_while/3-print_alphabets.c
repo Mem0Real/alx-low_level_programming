@@ -20,8 +20,6 @@ int main(void)
 		alphabet[i] = 'a' + i;
 		putchar(alphabet[i]);
 	}
-	
-	alphabet[i] = '\0';
 
 	for (j = 0; j < 26; j++)
 	{
@@ -30,6 +28,7 @@ int main(void)
 	}
 
 	putchar('\n');
+	alphabet[i] = '\0';	
 	alphabet[j] = '\0';
-	return(0);
+	return (0);
 }
