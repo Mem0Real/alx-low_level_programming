@@ -6,8 +6,9 @@
  * main - Assign random number and print certain text accordingly
  * Return: int
  *
- * This program will assign a random number 
- * to the variable n each time it is executed.
+ * This program prints random number
+ * and assign different string based on
+ * it's value.
  */
 
 int main(void)
