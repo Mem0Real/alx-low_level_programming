@@ -14,9 +14,8 @@
 int main(void)
 {
 	int n;
-	int lastDigit;
-	
-	char ldo[] = "Last digit of";		
+	int lastDigit;	
+	char ldo[] = "Last digit of";
 	char g[] = "and is greater than 5";
 	char z[] = "and is 0";
 	char m[] = "and is less than 6 and not 0";
@@ -31,6 +30,6 @@ int main(void)
 	else if (lastDigit == 0)
 		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, z);
 	else if (lastDigit < 6)
-		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, m);	
+		printf("%s %d %s %d %s\n", ldo, n, "is", lastDigit, m);
 	return (0);
 }
