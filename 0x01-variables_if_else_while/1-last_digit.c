@@ -14,15 +14,15 @@
 int main(void)
 {
 	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
 	int lastDigit;
-	char ldo[] = "Last digit of";
+
+	char ldo[] = "Last digit of";		
 	char g[] = "and is greater than 5";
 	char z[] = "and is 0";
 	char m[] = "and is less than 6 and not 0";
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 	lastDigit = n % 10;
 
