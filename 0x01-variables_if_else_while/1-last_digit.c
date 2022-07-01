@@ -15,6 +15,7 @@ int main(void)
 {
 	int n;
 	int lastDigit;
+	
 	char ldo[] = "Last digit of";		
 	char g[] = "and is greater than 5";
 	char z[] = "and is 0";
