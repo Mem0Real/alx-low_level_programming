@@ -6,12 +6,13 @@
 /* betty style doc for function main goes there */
 
 /**
+ * main - prints random nos with their sign
+ *
  * This program prints out
  * random numbers and prints
  * zero, positive or negative
  * based on the value of the number.
  */
-
 int main(void)
 {
 	int n;
