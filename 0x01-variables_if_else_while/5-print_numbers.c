@@ -4,7 +4,7 @@
   * main - Print all single digit numbers starting from 0
   * Return: void
   *
-  * This program returns all single digit numbers starting 
+  * This program returns all single digit numbers starting
   * from 0 followed by a new line.
   */
 
@@ -18,6 +18,5 @@ int main(void)
 	}
 	
 	printf("\n");
-	return(0);
+	return (0);
 }
-		
