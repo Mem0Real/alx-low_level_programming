@@ -28,7 +28,7 @@ int main(void)
 	}
 
 	putchar('\n');
-	alphabet[i] = '\0';	
+	alphabet[i] = '\0';
 	alphabet[j] = '\0';
 	return (0);
 }
