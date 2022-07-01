@@ -22,7 +22,7 @@ int main(void)
 
 	for (j = 0; j < 6; j++)
 	{
-		y[j] = 'A' + j;
+		y[j] = 'a' + j;
 		putchar(y[j]);
 	}
 
