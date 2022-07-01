@@ -8,18 +8,18 @@
  * using the 'putchar' function
  */
 
-int main()
+int main(void)
 {
 	char alphabet[27];
 	int i;
 
-	for(i = 0; i < 26; i++)
+	for (i = 0; i < 26; i++)
 	{
-		alphabet[i] = 'a'+i;
+		alphabet[i] = 'a' + i;
 		putchar(alphabet[i]);
 	}
 
 	putchar('\n');
 	alphabet[i] = '\0';
-	return 0;
+	return (0);
 }
