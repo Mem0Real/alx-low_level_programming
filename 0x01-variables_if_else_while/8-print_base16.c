@@ -30,4 +30,3 @@ int main(void)
 	y[j] = '\0';
 	return (0);
 }
-
