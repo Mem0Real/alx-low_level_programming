@@ -4,7 +4,7 @@
   * main - Print all single digit numbers of base 10 starting from 0
   * Return: null
   *
-  * This program prints all single digit numbers of base 10 
+  * This program prints all single digit numbers of base 10
   * starting from 0, followed by a new line using putchar.
   */
 
